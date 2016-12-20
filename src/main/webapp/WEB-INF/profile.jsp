@@ -38,11 +38,6 @@
 
             <!-- edit form column -->
             <div class="col-md-9 personal-info">
-                <div class="alert alert-info alert-dismissable">
-                    <a class="panel-close close" data-dismiss="alert">×</a>
-                    <i class="fa fa-coffee"></i>
-                    This is an <strong>.alert</strong>. Use this to show important messages to the user.
-                </div>
                 <h3>Personal info</h3>
 
                 <form class="form-horizontal" role="form" action="edit_profile.php" method="post">
@@ -50,15 +45,16 @@
                     <div class="form-group">
                         <label class="col-lg-3 control-label name">name:</label>
                         <div class="col-lg-8">
-                            <input class="form-control" value="<?php echo $row['name'];?>" type="text" name="name">
+                            <input class="form-control" value="" type="text" name="name">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-lg-3 control-label">Email:</label>
                         <div class="col-lg-8">
-                            <input class="form-control" value="<?php echo $row['email'];?>" type="text" name="email">
+                            <input class="form-control" value="" type="text" name="email">
                         </div>
                     </div>
+                    <input type="submit">
                 </form>
             </div>
         </div>
