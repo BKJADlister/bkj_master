@@ -24,14 +24,6 @@
             </form>
         </div>
     </c:forEach>
-    <style>
-        button {
-            background:none!important;
-            border:1px solid #444;
-            border-radius: 5px;
-            padding:0!important;
-        }
-    </style>
 </div>
 <footer class="footer navbar-fixed-bottom navbar navbar-default">
     <div class="container-fluid">
