@@ -27,7 +27,7 @@
                 <h4 id="middle_headline">${ad.getUsername()}</h4>
             </div>
             <c:choose>
-                <c:when test="${sessionScope.user != null}">
+                <c:when test="${sessionScope.user.id == ad.getId()}">
                     <form action="/ads/update" method="get" class="form_button_individ">
                         <button class="btn btn-lg btn-default" name="id" value=${ad.getId()}>
                             UPDATE
